@@ -1,1 +1,3 @@
-# MyProjects
+- 👋 Hi there, I’m Shaikh Danish Farhan
+- 👀 I’m interested in coding...
+- 🌱 I’m currently learning and practicing coding from basics to advance. 
