@@ -1,0 +1,42 @@
+
+MariaDB [(none)]> use projects;
+Database changed
+MariaDB [projects]> show tables;
++--------------------+
+| Tables_in_projects |
++--------------------+
+| employee           |
+| login              |
++--------------------+
+2 rows in set (0.002 sec)
+
+MariaDB [projects]> select * from login
+    -> ;
++----------+----------+
+| username | password |
++----------+----------+
+| admin    | admin    |
++----------+----------+
+1 row in set (0.406 sec)
+
+MariaDB [projects]> select * from employee;
+Empty set (0.069 sec)
+
+MariaDB [projects]> select * from employee;
++--------+--------+------+------+-----------+-----------+------------------------+-----------+----------+---------------+--------+
+| name   | fname  | age  | dob  | address   | phone     | email                  | education | post     | aadhar        | emp_id |
++--------+--------+------+------+-----------+-----------+------------------------+-----------+----------+---------------+--------+
+| Danish | Khizer | 27   | 1994 | Something | 135494164 | something@anything.com | BE        | Engineer | 1234567891084 | 1001   |
++--------+--------+------+------+-----------+-----------+------------------------+-----------+----------+---------------+--------+
+1 row in set (0.001 sec)
+
+MariaDB [projects]> select * from employee;
++--------+--------+------+------+-----------+-----------+------------------------+-----------+-----------+---------------+--------+
+| name   | fname  | age  | dob  | address   | phone     | email                  | education | post      | aadhar        | emp_id |
++--------+--------+------+------+-----------+-----------+------------------------+-----------+-----------+---------------+--------+
+| Danish | Khizer | 27   | 1994 | Something | 135494164 | something@anything.com | BE        | Engineer  | 1234567891084 | 1001   |
+| Shaikh | Md     | 26   | 1997 | India     | 879164911 | Shaikh@gmail.com       | BE        | Developer | 1349871357944 | 1002   |
++--------+--------+------+------+-----------+-----------+------------------------+-----------+-----------+---------------+--------+
+2 rows in set (0.001 sec)
+
+MariaDB [projects]>

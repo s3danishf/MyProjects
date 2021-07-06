@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>EMS_Master</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/icons/add_employee.jpg</name>
+			<type>1</type>
+			<location>C:/Danish/Practice/Repo/Projects/MyProjects/Employee Management System/EMS_Master/src/IconPack/add_employee.jpg</location>
+		</link>
+		<link>
+			<name>src/icons/details.jpg</name>
+			<type>1</type>
+			<location>C:/Danish/Practice/Repo/Projects/MyProjects/Employee Management System/EMS_Master/src/IconPack/details.jpg</location>
+		</link>
+		<link>
+			<name>src/icons/front.jpg</name>
+			<type>1</type>
+			<location>C:/Danish/Practice/Repo/Projects/MyProjects/Employee Management System/EMS_Master/src/IconPack/front.jpg</location>
+		</link>
+		<link>
+			<name>src/icons/login.jpg</name>
+			<type>1</type>
+			<location>C:/Danish/Practice/Repo/Projects/MyProjects/Employee Management System/EMS_Master/src/IconPack/login.jpg</location>
+		</link>
+		<link>
+			<name>src/icons/print.jpg</name>
+			<type>1</type>
+			<location>C:/Danish/Practice/Repo/Projects/MyProjects/Employee Management System/EMS_Master/src/IconPack/print.jpg</location>
+		</link>
+		<link>
+			<name>src/icons/remove.jpg</name>
+			<type>1</type>
+			<location>C:/Danish/Practice/Repo/Projects/MyProjects/Employee Management System/EMS_Master/src/IconPack/remove.jpg</location>
+		</link>
+		<link>
+			<name>src/icons/view.jpg</name>
+			<type>1</type>
+			<location>C:/Danish/Practice/Repo/Projects/MyProjects/Employee Management System/EMS_Master/src/IconPack/view.jpg</location>
+		</link>
+	</linkedResources>
+</projectDescription>
